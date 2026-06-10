@@ -1,0 +1,114 @@
+# =============================================
+# DEPENDENCIAS
+# =============================================
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# =============================================
+# BUILD / DIST
+# =============================================
+dist/
+dist-ssr/
+build/
+out/
+.output/
+
+# =============================================
+# LOGS
+# =============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================
+# VARIAVEIS DE AMBIENTE (SEGREDOS)
+# =============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# =============================================
+# CACHE E TEMPORARIOS
+# =============================================
+.cache/
+.parcel-cache/
+.vite/
+*.local
+*.tsbuildinfo
+
+# =============================================
+# EDITORES E IDEs
+# =============================================
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*.sw?
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =============================================
+# SISTEMA OPERACIONAL
+# =============================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# =============================================
+# TESTES E COBERTURA
+# =============================================
+coverage/
+*.lcov
+.nyc_output/
+
+# =============================================
+# AGENTES DE IA (CONFIGURACOES LOCAIS)
+# =============================================
+# A pasta .agents contem regras de IA locais - incluir ou excluir e uma decisao do time.
+# Por padrao, excluimos a memoria dinamica (dados gerados em runtime) mas mantemos as regras.
+.agents/memory/
+.agents/mcp_config.json
+
+# =============================================
+# OUTROS
+# =============================================
+*.pem
+.npmrc
+.yarnrc
